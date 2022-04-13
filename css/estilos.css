@@ -426,6 +426,29 @@ body{
 		grid-row: 1/2;
 	}
 
+
+
+
+	.about__imagenes{
+		grid-template-columns: 1fr ;
+	
+	}
+
+	.about-imagenes.container{
+		padding-top: 30px;
+		
+	}
+
+	.about__imagenes--left{
+		text-align: center;
+	}
+
+	.about__texts{ 
+		grid-row: 3/4;
+	}
+
+
+
 }
 
 
@@ -507,6 +530,14 @@ body{
 		margin: 0;
 		margin-bottom: 20px;
 
+	}
+
+	.about__imagenes{
+		row-gap: 60px;
+	}
+
+	.about-imagenes.container{
+		padding-top: 10px;
 	}
 
 }
